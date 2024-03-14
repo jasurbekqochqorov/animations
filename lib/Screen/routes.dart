@@ -1,17 +1,11 @@
 
 import 'package:flutter/material.dart';
-import 'package:homework12/Screen/animations_screens/homework_first.dart';
-import 'package:homework12/Screen/animations_screens/homework_four.dart';
-import 'package:homework12/Screen/animations_screens/homework_second.dart';
-import 'package:homework12/Screen/animations_screens/homework_third.dart';
 import 'package:homework12/Screen/main_screen.dart';
 
-import 'animations_screens/five_homework.dart';
-import 'animations_screens/homework_eight.dart';
-import 'animations_screens/homework_nine.dart';
-import 'animations_screens/homework_ten.dart';
-import 'animations_screens/seven_homework.dart';
-import 'animations_screens/six_homework.dart';
+import 'custom_screens/homework_first.dart';
+import 'custom_screens/homework_second.dart';
+import 'custom_screens/homework_third.dart';
+
 
 class MyRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -24,20 +18,20 @@ class MyRouter {
         return MaterialPageRoute(builder: (_) => ExampleSecond());
       case thirdScreenRoute:
         return MaterialPageRoute(builder: (_) => ExampleThird());
-      case fourthScreenRoute:
-        return MaterialPageRoute(builder: (_) => ExampleFour());
-      case fifthScreenRoute:
-        return MaterialPageRoute(builder: (_) => ExampleFive());
-      case sixthScreenRoute:
-        return MaterialPageRoute(builder: (_) => ExampleSix());
-      case seventhScreenRoute:
-        return MaterialPageRoute(builder: (_) => ExampleSeven());
-      case eighthScreenRoute:
-        return MaterialPageRoute(builder: (_) => ExampleEight());
-      case ninthScreenRoute:
-        return MaterialPageRoute(builder: (_) => ExampleOne());
-      case tenthScreenRoute:
-        return MaterialPageRoute(builder: (_) => ExampleTen());
+      // case fourthScreenRoute:
+      //   return MaterialPageRoute(builder: (_) => ExampleFour());
+      // case fifthScreenRoute:
+      //   return MaterialPageRoute(builder: (_) => ExampleFive());
+      // case sixthScreenRoute:
+      //   return MaterialPageRoute(builder: (_) => ExampleSix());
+      // case seventhScreenRoute:
+      //   return MaterialPageRoute(builder: (_) => ExampleSeven());
+      // case eighthScreenRoute:
+      //   return MaterialPageRoute(builder: (_) => ExampleEight());
+      // case ninthScreenRoute:
+      //   return MaterialPageRoute(builder: (_) => ExampleOne());
+      // case tenthScreenRoute:
+      //   return MaterialPageRoute(builder: (_) => ExampleTen());
       case eleventhScreenRoute:
       //   return MaterialPageRoute(builder: (_) => ExampleEleven());
       // case twelveScreenRoute:
